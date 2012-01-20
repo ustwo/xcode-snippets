@@ -3,28 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>delegatecall</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (id)sharedInstance
-{
-    static dispatch_once_t onceToken = 0;
-    __strong static id _sharedObject = nil;
-    dispatch_once(&amp;onceToken, ^{
-        _sharedObject = [[self alloc] init];
-    });
-    
-    return _sharedObject;
-}</string>
+	<string>if ([self.delegate respondsToSelector:@selector(&lt;#Selector Signature#&gt;)])
+    {
+        [self.delegate &lt;#Delegate Method#&gt;];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>667E5913-B2BE-416F-ADBD-04D1E864528C</string>
+	<string>1D612AF4-2C79-4B50-8D69-398EDBB3D818</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>US2 Singleton</string>
+	<string>US2 Delegate - Call</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
