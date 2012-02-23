@@ -22,7 +22,7 @@ dispatch_async(backgroundQueue,^{
 
 // Clean up
 //    dispatch_release(backgroundQueue);
-}</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2B6AD472-5C55-49DD-AE0A-6DCC2E1DDACB</string>
 	<key>IDECodeSnippetLanguage</key>
