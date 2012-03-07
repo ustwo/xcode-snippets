@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (id)sharedInstance
+	<string>- (id)init
 {
-    static dispatch_once_t onceToken = 0;
-    __strong static id _sharedObject = nil;
-    dispatch_once(&amp;onceToken, ^{
-        _sharedObject = [[self alloc] init];
-    });
+    self = [super init];
+    if (self)
+    {
+        &lt;#initializations#&gt;
+    }
     
-    return _sharedObject;
+    return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>667E5913-B2BE-416F-ADBD-04D1E864528C</string>
+	<string>F7D3C07D-D951-4FE8-8D7A-BE1AFBCD21C5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>US2 Singleton</string>
+	<string>US2 Init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
