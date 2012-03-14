@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>initWithFrame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)init
+	<string>- (id)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (self)
     {
         &lt;#initializations#&gt;
@@ -20,11 +20,11 @@
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7D3C07D-D951-4FE8-8D7A-BE1AFBCD21C5</string>
+	<string>E469FDFF-A984-48E9-B84E-32877ADAE4CE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>US2 Init</string>
+	<string>US2 InitWithFrame Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
