@@ -6,7 +6,7 @@
 	<string>UIViewControllerAllocWithNibName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[[&lt;#(Class)#&gt; alloc] initWithNibName:NSStringFromClass([&lt;#(Class)#&gt; class]) bundle:&lt;#(NSBundle *)#&gt;];</string>
