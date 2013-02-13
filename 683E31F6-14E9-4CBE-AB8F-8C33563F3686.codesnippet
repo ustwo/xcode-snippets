@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pend</string>
+	<string>nslocalizedstring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pending(@"should &lt;#message#&gt;", ^{});</string>
+	<string>NSLocalizedString(@"&lt;#key#&gt;", nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113AAD2E-40E7-4EDF-B91E-9D91B8CCA9C6</string>
+	<string>683E31F6-14E9-4CBE-AB8F-8C33563F3686</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>US2 Kiwi Pending</string>
+	<string>US2 NSLocalizedString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

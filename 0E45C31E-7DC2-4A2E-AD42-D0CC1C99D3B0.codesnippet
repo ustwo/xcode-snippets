@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pend</string>
+	<string>viewdidload</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pending(@"should &lt;#message#&gt;", ^{});</string>
+	<string>- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113AAD2E-40E7-4EDF-B91E-9D91B8CCA9C6</string>
+	<string>0E45C31E-7DC2-4A2E-AD42-D0CC1C99D3B0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>&lt;#code#&gt;</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>US2 Kiwi Pending</string>
+	<string>US2 View Did Load</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
