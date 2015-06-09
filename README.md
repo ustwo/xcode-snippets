@@ -5,9 +5,16 @@ Xcode Snippets
 
 ### Instructions
 
-- git clone git@github.com:ustwo/xcode-snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets/
-- Restart Xcode 
-- Drag out or use custom keyboard shortcuts e.g. US2, AlertView, TableView follpwed by Return key to insert code snippets
+Clone the repo into the CodeSnippets directory 
+
+- <code>git clone git@github.com:ustwo/xcode-snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets/</code>
+
+
+Restart Xcode. 
+
+Enjoy
+
+e.g. filter snippets but "US2" or use the custom keyboard shortcuts e.g. AlertView, tableview, GCD etc followed by the Return key to insert.
 
 ### Screenshots
 
