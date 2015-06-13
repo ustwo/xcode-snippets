@@ -1,9 +1,8 @@
 xcode-snippets
 ==============
 
-A collection of Objective-C code snippets to help autocomplete common API routines whilst coding iOS or OS X applications.
+A collection of Objective-C code snippets to help autocomplete common API routines whilst coding iOS or OS X applications. Contributions are welcome especially Swift!
 
-Contributions are welcome especially Swift!
 
 ## Dependencies
 
