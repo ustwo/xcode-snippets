@@ -11,7 +11,7 @@ A collection of Objective-C code snippets to help autocomplete common API routin
 
 ### Setup
 
-* Clone the repo into the CodeSnippets directory 
+* Clone the repo into the Xcode snippets directory as follows
 
 - <code>git clone git@github.com:ustwo/xcode-snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets/</code>
 
