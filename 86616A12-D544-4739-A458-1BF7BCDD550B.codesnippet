@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import "Kiwi.h"
+	<string>#import &lt;Kiwi/Kiwi.h&gt;
 #import "&lt;#class name#&gt;.h"
 
 SPEC_BEGIN(&lt;#class name#&gt;Spec)
@@ -22,11 +22,12 @@ describe(@"&lt;#class name#&gt;", ^{
     });
     
     afterEach(^{
-        [&lt;#ivar#&gt; release];
         &lt;#ivar#&gt; = nil;
     });
     
-    pending(@"should &lt;#message#&gt;", ^{});
+    it(@"", ^{
+        
+    });
 });
 
 SPEC_END
