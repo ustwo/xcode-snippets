@@ -17,15 +17,23 @@ SPEC_BEGIN(&lt;#class name#&gt;Spec)
 describe(@"&lt;#class name#&gt;", ^{
     __block &lt;#class name#&gt; *&lt;#ivar#&gt; = nil;
     
-    beforeEach(^{
+    beforeAll(^{
         &lt;#ivar#&gt; = [[&lt;#class name#&gt; alloc] init];
     });
     
-    afterEach(^{
+    afterAll(^{
         &lt;#ivar#&gt; = nil;
     });
     
-    it(@"", ^{
+    context(@"&lt;#method name#&gt;", ^{
+        
+        beforeAll(^{
+
+        });
+        
+        it(@"", ^{
+        
+        });
         
     });
 });
